@@ -9,6 +9,9 @@
 }
 body {
   font-size: 0.9rem;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 header {
   display: flex;
@@ -40,7 +43,7 @@ header {
   place-items: center;
 }
 .icon-link:hover {
-  background: rgb(231, 227, 227);
+  background: rgb(235, 235, 235);
 }
 .img-button {
   border: none;
@@ -51,4 +54,7 @@ header {
   aspect-ratio: 1/1;
   overflow: hidden;
   border-radius: 100%;
+}
+main {
+  flex: 1;
 }
