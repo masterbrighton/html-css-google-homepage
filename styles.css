@@ -126,3 +126,24 @@ main {
 .language-link:hover {
   text-decoration: underline;
 }
+.language-text {
+  font-size: 0.7rem;
+}
+footer {
+  background: rgb(244, 244, 244);
+}
+footer > div {
+  padding: 1rem;
+  font-size: 0.8rem;
+}
+.footer-grid {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 1rem;
+}
+.footer-links {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
