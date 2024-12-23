@@ -74,8 +74,28 @@ main {
   gap: 2rem;
   padding: 4rem 1rem;
 }
-.title-text {
-  font-size: 3rem;
+.google-text {
+  display: flex;
+  flex-direction: row;
+  font-size: xx-large;
+}
+.first {
+  color: #1b6ef3;
+}
+.second {
+  color: red;
+}
+.third {
+  color: #f29900;
+}
+.fourth {
+  color: #1b6ef3;
+}
+.fifth {
+  color: #37be5f;
+}
+.sixth {
+  color: red;
 }
 .input-bar {
   display: flex;
